@@ -1,0 +1,218 @@
+/*default style*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #f0f0f0;
+}
+/*font*/
+@font-face {
+    font-family: "PixelFont";
+    src: url("../assets/fonts/HYPixel11pxU-2.ttf");
+}
+/*main panel*/
+#main {
+    position: absolute;
+    background-image: url("../assets/UI/menu.png");
+    background-size: contain;
+    width: 960px;
+    height: 540px;
+}
+
+/*.min-btn {
+    background-color: transparent;
+    border: none;
+    font-family: "PixelFont", sans-serif;
+    font-weight: 700;
+    color: #410341;
+    cursor: pointer;
+
+}
+.min-btn:hover {
+    background-color: rgba(255,255,255,0.2);
+    color: #800080;
+}*/
+
+#main-btn-levelSelect {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 31px;
+    width: 82px;
+    height: 82px;
+    border-radius: 50%;
+    font-size: 30px;
+
+}
+/* #min-btn-setting {
+    position: absolute;
+    left: 341px;
+    bottom: 40px;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    font-size: 13px;
+}
+
+#min-btn-credits {
+    position: absolute;
+    right: 341px;
+    bottom: 40px;
+    width: 62px;
+    height: 62px;
+    border-radius: 50%;
+    font-size: 13px;
+} */
+/*setting panel*/
+/* #setting-panel {
+    position: absolute;
+    background-image: url("../assets/UI/setting-panel.png");
+    background-size: contain;
+    width: 960px;
+    height: 540px;
+}
+
+#setting-btn-back {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/*credits panel*/
+/* #credits-panel {
+    position: absolute;
+    background-image: url("../assets/UI/credits-panel.png");
+    background-size: contain;
+    width: 960px;
+    height: 540px;
+}
+#credits-btn-back {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+} */
+/*level select panel*/
+#levelSelect {
+    position: absolute;
+    background-image: url("../assets/UI/level-select-panel.png");
+    background-size: contain;
+    width: 960px;
+    height: 540px;
+}
+#levelSelect-btn-back {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 5px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+#levelSelect-btn-level1 {
+    position: absolute;
+    left: 119px;
+    top: 236px;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+}
+#levelSelect-btn-level2 {
+    position: absolute;
+    left: 288px;
+    top: 236px;
+    width: 50px;
+    height: 30px;
+    cursor: pointer;
+}
+/*level1*/
+#level1 {
+    position: absolute;
+    width: 960px;
+    height: 540px;
+}
+#inLevel1UI {
+    position: absolute;
+    z-index: 10px;
+    width: 960px;
+    height: 540px;
+}
+#level1-btn-back {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/*level2*/
+#level2 {
+    position: absolute;
+    width: 960px;
+    height: 540px;
+}
+#inLevel2UI {
+    position: absolute;
+    z-index: 10px;
+    width: 960px;
+    height: 540px;
+}
+#level2-btn-back {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/*level1 result*/
+#level1Result {
+    position: absolute;
+    background-image: url("../assets/UI/level-select-panel.png");
+    background-size: contain;
+    width: 960px;
+    height: 540px;
+}
+#level1Result-btn-back {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+/*level2 result*/
+#level2Result {
+    position: absolute;
+    background-image: url("../assets/UI/level-select-panel.png");
+    background-size: contain;
+    width: 960px;
+    height: 540px;
+}
+#level2Result-btn-back {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}

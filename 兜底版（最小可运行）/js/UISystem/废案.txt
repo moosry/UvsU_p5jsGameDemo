@@ -1,0 +1,49 @@
+    <!--main panel template-->
+    <template id="main-panel-template">
+        <div id="main-panel">
+            <button id="min-btn-start" class="min-btn" onclick="UI.switchUIPanel(this.id)">PLAY</button>
+            <button id="min-btn-setting" class="min-btn" onclick="UI.switchUIPanel(this.id)">SETTING</button>
+            <button id="min-btn-credits" class="min-btn" onclick="UI.switchUIPanel(this.id)">CREDITS</button>
+        </div>
+    </template>
+
+    <!--setting panel template-->
+    <template id="setting-panel-template">
+        <div id="setting-panel">
+            <button id="setting-btn-back" onclick="UI.switchUIPanel(this.id)">BACK</button>
+        </div>
+    </template>
+
+    <!--credits panel template-->
+    <template id="credits-panel-template">
+        <div id="credits-panel">
+            <button id="credits-btn-back" onclick="UI.switchUIPanel(this.id)">BACK</button>
+        </div>
+    </template>
+
+    <!--level select panel template-->
+    <template id="level-select-panel-template">
+        <div id="level-select-panel">
+            <button id="level-select-btn-level1" onclick="UI.switchUIPanel(this.id)">level1</button>
+            <button id="level-select-btn-level2" onclick="UI.switchUIPanel(this.id)">level2</button>
+            <button id="level-select-btn-back" onclick="UI.switchUIPanel(this.id)">BACK</button>
+        </div>
+    </template>
+
+    <!--game panel template-->
+    <template id="game-area-template">
+        <div id="game-area">
+            <div id="game-panel">
+                <button id="game-btn-back" onclick="UI.switchUIPanel(this.id)">BACK</button>
+            </div>
+        </div>
+    </template>
+
+    <!--result panel template-->
+    <template id="result-panel-template">
+        <div id="result-panel">
+            <button id="result-btn-next">NEXT</button>
+            <button id="result-btn-back">BACK</button>
+            <button id="replay">REPLAY</button>
+        </div>
+    </template> 
