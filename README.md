@@ -1,3 +1,7 @@
+# 点击此链接开始游戏
+
+https://moosry.github.io/UhelpU_p5jsGameDemo/
+
 # U HELP U开发中
 
 
